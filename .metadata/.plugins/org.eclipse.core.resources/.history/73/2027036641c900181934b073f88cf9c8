@@ -1,0 +1,18 @@
+package io.javabrains.springbootstarter.topic;
+
+
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+
+@RestController
+public class TopicController {
+	
+	
+	@RequestMapping("/topics")
+	public String getAllTipics() {
+		return "All Topics";
+	}
+	
+
+}
